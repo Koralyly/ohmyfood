@@ -6,6 +6,11 @@ body {
   line-height: 3;
 }
 
+i.fa-solid.fa-location-dot{
+ 
+
+}
+
 header h1 {
   display: flex;
   align-items: center;
