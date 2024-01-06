@@ -17,6 +17,13 @@ header {
   color: #101010;
 }
 
+.fa-location-dot::before, .fa-map-marker-alt::before{
+
+  margin-left: -40px;
+}
+
+
+
 a{
 
   text-decoration: none;
@@ -72,59 +79,58 @@ a{
 }
 
 
-  h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
+
 
 
 .process {
   background-color: #fff;
 }
 
-.process_etapes {
+.fonctionnement_btns{
+  padding-bottom: 50px;
+}
+.functioning__title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 50px 0 10px 20px;
+  margin: 0;
+}
+.fonctionnement_inter_btn {
+  text-decoration: none;
   display: flex;
-  flex-direction: column;
-  gap: 25px;
-  row-gap: 2rem;
+  align-items: center;
+  background: #ececec;
+  border-radius: 20px;
+  margin: 10px 20px 20px 25px;
+  box-shadow: 2px 2px 7px #d3d3d3;
 }
 
-.process_etape {
-  background: #f6f6f6;
-  padding: 31px;
-  box-shadow: rgba(50, 50, 93, 0) 0px 5px 20px 0px, rgba(0, 0, 0, 0.3) -1px 5px 30px -10px;
-  border-radius: 2rem;
-  margin-left: 32px;
+.fonctionnement_inter_btn:hover .functioning-insert-ball__icon {
+  color: #9356DC;
+  transition: 0.5s linear;
+}
+.fonctionnement_cercle {
   position: relative;
-  display: flex;
-  align-items: center;
-  gap: 23px;
+  margin-left: -10px;
+  height: 27px;
+  width: 27px;
+  background: #9356DC;
+  border-radius: 20px;
 }
-
-.process_numero {
-  background: #9356dc;
+.functioning-insert-ball__icon {
+  width: 15px;
+  height: 15px;
+  color: #636363cc;
+  margin-left: 20px;
+}
+.fonctionnement_nbr {
+  margin: 4px 0 0 9px;
+  font-weight: bold;
   color: white;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  position: absolute;
-  left: -1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
-.process__icon{
-
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  color: #7e7e7e;
+.fonctionnement_text {
+  padding: 27px;
+  margin: 0;
 }
 
 .restaurantsection {
