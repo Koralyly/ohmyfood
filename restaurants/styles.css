@@ -1,0 +1,40 @@
+.header-omf{
+    
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 65px;
+    box-shadow: 0 2px 4px #636363cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+
+  .header_arrow {
+    color: #636363cc;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .image_restaurant{
+
+    
+      overflow: hidden;
+      height: 320px;
+    
+  }
+
+  .restaurant_image{
+
+    
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center bottom;
+    
+  }
