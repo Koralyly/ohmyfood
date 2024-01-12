@@ -14,11 +14,10 @@ header {
   font-size: 30px;
   text-decoration: none;
   color: #101010;
+  padding: 14px 89px 13px 89px;
 }
 
-.fa-location-dot::before, .fa-map-marker-alt::before {
-  margin-left: -40px;
-}
+
 
 a {
   text-decoration: none;
@@ -30,6 +29,8 @@ a {
   justify-content: center;
   height: 50px;
   background-color: #EAEAEA;
+  gap: 17px;
+  
 }
 
 .description {
@@ -41,7 +42,9 @@ a {
 .description_title {
   display: flex;
   text-align: center;
-  justify-content: center;
+  width: 275px;
+  height: 68px;
+  flex-shrink: 0;
 }
 
 .description_text {
@@ -49,8 +52,10 @@ a {
   font-size: 18px;
   font-weight: 300;
   line-height: 21px;
-  letter-spacing: 0em;
   text-align: center;
+  width: 315px;
+height: 46px;
+flex-shrink: 0;
 }
 
 .description_btn {
@@ -62,10 +67,10 @@ a {
   text-decoration: none;
   color: #fff;
   height: 50px;
-  top: 50px;
   border-radius: 25px;
   background: linear-gradient(#FF79DA, #9356DC);
   transition: opacity 1s, box-shadow 2s;
+  
 }
 
 .description_btn:hover {

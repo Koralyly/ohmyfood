@@ -79,26 +79,26 @@ body{
       margin: 0;
     
   }
-  .restaurant-page-menu  .hoverheart__content-solid {
+  .restaurant-page-menu .hoverheart__content-solid {
     cursor: pointer;
     font-size: 1.5rem;
     position: absolute;
     right: 5px;
     top: 30px;
+    
     background: linear-gradient(#FF79DA, #9356DC);
     opacity: 0;
   }
+  
 
-  .restaurant-page-menu .hoverheart__content-light {
-    cursor: pointer;
+  .fa-heart {
     font-size: 1.5rem;
     position: absolute;
-    right: 5px;
-    top: 30px;
-    opacity: 1;
+    right: 25px;
+    bottom: 25px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    opacity: 0;
   }
-
-  
 
   .page-menu__title::after {
     display: block;
@@ -179,8 +179,8 @@ body{
     opacity: 1;
   }
 
-  .omf-::after {
-   
+  .omf-btn::after {
+    content: "";
     position: absolute;
     border-radius: 30px;
     top: 0;
@@ -191,7 +191,7 @@ body{
     box-shadow: 0 2px 4px #636363cc;
     opacity: 0;
     z-index: -1;
-   
+    transition: opacity 250ms;
   }
   .omf-btn {
     position: relative;
