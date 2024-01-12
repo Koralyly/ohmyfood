@@ -17,6 +17,7 @@ header {
   color: #101010;
 }
 
+
 .fa-location-dot::before, .fa-map-marker-alt::before{
 
   margin-left: -40px;
@@ -86,6 +87,11 @@ a{
   background-color: #fff;
 }
 
+h2{
+
+  padding: 40px 0 10px 20px;
+}
+
 .fonctionnement_btns{
   padding-bottom: 50px;
 }
@@ -123,7 +129,7 @@ a{
 .functioning-insert-ball__icon {
   width: 15px;
   height: 15px;
-  color: #636363cc;
+  color: #636363;
   margin-left: 20px;
 }
 .fonctionnement_nbr {
