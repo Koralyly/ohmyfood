@@ -27,13 +27,7 @@ body{
     transform: translateY(-50%);
   }
 
-  .image_restaurant{
 
-    
-      overflow: hidden;
-      height: 320px;
-    
-  }
 
   .restaurant_image{
 
@@ -71,14 +65,14 @@ body{
     
   }
 
-  .restaurant-page-menu__text {
+  h1 {
     
-  
-  font-family: "Shrikhand", cursive;
+      font-family: "Shrikhand", cursive;
       font-size: 1.75rem;
       margin: 0;
     
   }
+  
   .restaurant-page-menu .hoverheart__content-solid {
     cursor: pointer;
     font-size: 1.5rem;
@@ -128,6 +122,10 @@ body{
     box-shadow: 2px 2px 7px #d3d3d3;
     position: relative;
     overflow: hidden;
+  }
+
+  ul{
+    padding:0px
   }
 
   .page-menu-insert__title{
@@ -231,10 +229,7 @@ body{
     align-items: flex-start;
   }
   
-  .container--footer {
-    display: flex;
-    flex-direction: column;
-  }
+ 
   
   .footer a {
     text-decoration: none;
