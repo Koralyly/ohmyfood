@@ -36,6 +36,7 @@ a {
   text-align: center;
   padding: 40px 20px 70px;
   background-color: #f6f6f6;
+  padding: 0px;
 }
 
 .description_title {
@@ -240,7 +241,9 @@ h2 {
   right: 25px;
   bottom: 25px;
   background: linear-gradient(#FF79DA, #9356DC);
-  opacity: 0;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 footer {
