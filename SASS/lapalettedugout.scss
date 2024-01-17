@@ -93,10 +93,14 @@ body{
    -webkit-background-clip: text;
    color:transparent;
    opacity: 0;
+  
+ 
+  transition: opacity 300ms;
   }
   .restaurant-page-menu .hoverheart__content-solid:hover{
     
    opacity: 1;
+   transition: opacity 300ms;
   }
 
   .hoverheart__content-light{
@@ -114,6 +118,7 @@ body{
     position: absolute;
     right: 25px;
     bottom: 25px;
+    padding: 3px;
    
    }
 
@@ -155,11 +160,18 @@ body{
   box-shadow: 2px 2px 7px #d3d3d3;
   position: relative;
   overflow: hidden;
+  
     
   }
 
+
+
+  
+
+
   ul{
     padding:0px
+    
   }
 
   h3{
@@ -192,43 +204,50 @@ body{
   .page-menu-insert__price {
     margin: 0;
     font-weight: bold;
-    padding-left: 10px;
-    width: 50px;
+    
+    width: 60px;
     transition:transform 0.8s ease-in-out;
   }
 
   .page-menu-insert__check  {
     
-      position: absolute;
-      background-color: #99E2D0;
-      top: 0;
-      bottom: 0;
-      right: -114px;
-      width: 110px;
-      
-      border-radius: 0px 20px 20px 0px;
-      opacity:1;
-     cursor: pointer;
+    background-color: #99e2d0;
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    height: 100%;
+    width: 81px;
+    font-size: 140%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    white-space: nowrap;
+    position: absolute;
+    right: -60px;
+    top: 0;
+
+    transform: translateX(65px)
+    
+     
       
     }
+    
 
 
 
-.page-menu-insert__check {
-  
-  transform: translateX(0);
-  
-  transition: transform 0.8s ease-in-out;
-}
+
 
 .page-menu-insert:hover .page-menu-insert__check  {
 
   transform: translateX(-50px);
+  
+
+  
 }
 .page-menu-insert:hover .page-menu-insert__price  {
 
   transform: translateX(-50px);
 }
+
 
   .page-menu-insert__checkcontent {
     position: absolute;
@@ -294,6 +313,8 @@ body{
   .footer a {
     text-decoration: none;
     color: #fff;
+    width: 11px;
+    
   }
   
   .footer__logo {
