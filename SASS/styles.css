@@ -1,23 +1,25 @@
 body {
-  font-family: roboto bold,sans-serif;
+  font-family: roboto bold, sans-serif;
 }
 
-.fa-location-dot::before, .fa-map-marker-alt::before {
+.fa-location-dot::before {
   line-height: 3;
+  margin-left: -40px;
+}
+
+.fa-map-marker-alt::before {
+  line-height: 3;
+  margin-left: -40px;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'shrikhand';
+  font-family: "shrikhand";
   font-size: 30px;
   text-decoration: none;
   color: #101010;
-}
-
-.fa-location-dot::before, .fa-map-marker-alt::before {
-  margin-left: -40px;
 }
 
 a {
@@ -268,7 +270,7 @@ footer {
 }
 
 .footer__logo {
-  font-family: shrikhand,cursive;
+  font-family: shrikhand, cursive;
   font-size: 20px;
 }
 

@@ -1,3 +1,36 @@
+@keyframes appear {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -86,20 +119,20 @@ h1 {
   transition: opacity 300ms;
 }
 
-.hoverheart__content-light {
-  opacity: 1;
-}
-
-.hoverheart__content-light:hover {
-  opacity: 0;
-}
-
 .fa-heart {
   font-size: 1.8rem;
   position: absolute;
   right: 25px;
   bottom: 25px;
   padding: 1px;
+}
+
+.hoverheart__content-light {
+  opacity: 1;
+}
+
+.hoverheart__content-light:hover {
+  opacity: 0;
 }
 
 .menu {
@@ -113,11 +146,8 @@ h1 {
   margin: 0 5vw;
 }
 
-.menu h4, .menu p {
-  padding: 0.46rem 5vw;
-}
-
 .menu h4 {
+  padding: 0.46rem 5vw;
   margin-bottom: 0px;
   margin-top: 0px;
   font-size: larger;
@@ -127,6 +157,7 @@ h1 {
 }
 
 .menu p {
+  padding: 0.46rem 5vw;
   margin-bottom: 5px;
 }
 
@@ -145,35 +176,10 @@ h1 {
   animation-fill-mode: backwards;
 }
 
-@keyframes appear {
-  from {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .menu__carte_plats .card {
   animation-name: appear;
   animation-duration: 1000ms;
   animation-fill-mode: backwards;
-}
-
-@keyframes appear {
-  from {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.menu__carte_plats .card {
   animation-delay: 500ms;
 }
 
@@ -181,20 +187,6 @@ h1 {
   animation-name: appear;
   animation-duration: 1000ms;
   animation-fill-mode: backwards;
-}
-
-@keyframes appear {
-  from {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.menu__carte_desserts .card {
   animation-delay: 1s;
 }
 
@@ -211,6 +203,22 @@ h1 {
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.card:hover > .card__check {
+  flex: 25%;
+  transform: translateX(0px);
+  background-color: #99e2d0;
+  cursor: pointer;
+  color: #f6f6f6;
+}
+
+.card:hover > .card__text {
+  flex: 75%;
+}
+
+.card:hover .fa-check-circle {
+  transform: rotate(0deg);
 }
 
 .card__text {
@@ -259,22 +267,6 @@ h1 {
   cursor: pointer;
   transition: all 700ms;
   padding: 0.46rem;
-}
-
-.card:hover > .card__check {
-  flex: 25%;
-  transform: translateX(0px);
-  background-color: #99e2d0;
-  cursor: pointer;
-  color: #f6f6f6;
-}
-
-.card:hover > .card__text {
-  flex: 75%;
-}
-
-.card:hover .fa-check-circle {
-  transform: rotate(0deg);
 }
 
 .fa-check-circle {
