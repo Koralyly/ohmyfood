@@ -63,18 +63,22 @@ h1 {
   width: 40px;
 }
 
-.restaurant-page-menu .hoverheart__content-solid {
+.hoverheart__content-solid {
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.8rem;
   position: absolute;
   right: 25px;
   bottom: 25px;
+  padding: 1px;
   background: linear-gradient(#FF79DA, #9356DC);
   background-clip: border-box;
   -webkit-background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
   opacity: 0;
-  transition: opacity 600ms;
+}
+
+.hoverheart__content-solid:hover {
+  opacity: 1;
 }
 
 .restaurant-page-menu .hoverheart__content-solid:hover {
@@ -91,11 +95,11 @@ h1 {
 }
 
 .fa-heart {
-  font-size: 2rem;
+  font-size: 1.8rem;
   position: absolute;
   right: 25px;
   bottom: 25px;
-  padding: 3px;
+  padding: 1px;
 }
 
 .menu {

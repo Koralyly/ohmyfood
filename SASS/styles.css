@@ -228,7 +228,7 @@ h2 {
 }
 
 .far.fa-heart.hoverheart__content-light {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   position: absolute;
   right: 25px;
   bottom: 25px;
@@ -236,7 +236,7 @@ h2 {
 }
 
 .fa-heart.hoverheart__content-solid {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   position: absolute;
   right: 25px;
   bottom: 25px;
@@ -244,6 +244,11 @@ h2 {
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  opacity: 0;
+}
+
+.fa-heart.hoverheart__content-solid:hover {
+  opacity: 1;
 }
 
 footer {
