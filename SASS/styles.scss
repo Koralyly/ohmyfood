@@ -17,11 +17,12 @@ $background-color_5: #353535;
 
 body {
 	font-family: $font-family_1;
+	margin: 0px;
 }
 .fa-location-dot {
 	&::before {
 		line-height: 3;
-		margin-left: -40px;
+		margin-left: 26px;
 	}
 }
 .fa-map-marker-alt {
@@ -30,12 +31,25 @@ body {
 		margin-left: -40px;
 	}
 }
-header {
+
+.header-search-input {
+	border: none;
+    margin-left: 14px;
+    height: 35px;
+    background-color: #eaeaea;
+    background-color: #eaeaea;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+	
+}
+
+h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-family: $font-family_2;
-	font-size: 30px;
+	font-size: 40px;
 	text-decoration: none;
 	color: $color_1;
 }
@@ -43,12 +57,23 @@ a {
 	text-decoration: none;
 	color: $color_2;
 }
-.position {
-	display: flex;
-	justify-content: center;
-	height: 50px;
-	background-color: $background-color_1;
+
+
+.position{
+	
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1rem;
+		
+background: #d3d3d3;
+		  
+	  	
 }
+
+
+
 .description {
 	text-align: center;
 	padding: 40px 20px 70px;
@@ -80,6 +105,8 @@ a {
 	top: 50px;
 	border-radius: 25px;
 	background: linear-gradient(#FF79DA, #9356DC);
+	width: 220px;
+    margin: 30px auto;
 	transition: opacity 1s,box-shadow 2s;
 	&:hover {
 		box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.35);
@@ -149,12 +176,7 @@ h2 {
 .grey-background {
 	background: #ececec;
 }
-.restaurant_title {
-	font-weight: bold;
-	font-size: 1.5rem;
-	padding: 40px 0 10px 20px;
-	margin: 0;
-}
+
 .restaurant_cont {
 	padding-bottom: 50px;
 	display: flex;
@@ -225,15 +247,17 @@ h2 {
 	opacity: 1;
 }
 .fa-heart.hoverheart__content-solid {
-	font-size: 1.8rem;
-	position: absolute;
-	right: 25px;
-	bottom: 25px;
-	background: linear-gradient(#FF79DA, #9356DC);
-	background-clip: border-box;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	opacity: 0;
+	
+		font-size: 1.8rem;
+		position: absolute;
+		right: 25px;
+		bottom: 25px;
+		background: linear-gradient(#FF79DA, #9356DC);
+		  background-clip: border-box;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		opacity: 0;
+	  
 	&:hover{ opacity: 1;
 }
 } 
@@ -263,5 +287,12 @@ h2 {
 	list-style: none;
 	padding: 0px;
 	line-height: 2;
+
+	
+}
+
+.footer__icon{
+
+	width: 25px;
 }
 

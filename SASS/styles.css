@@ -1,10 +1,11 @@
 body {
   font-family: roboto bold, sans-serif;
+  margin: 0px;
 }
 
 .fa-location-dot::before {
   line-height: 3;
-  margin-left: -40px;
+  margin-left: 26px;
 }
 
 .fa-map-marker-alt::before {
@@ -12,12 +13,23 @@ body {
   margin-left: -40px;
 }
 
-header {
+.header-search-input {
+  border: none;
+  margin-left: 14px;
+  height: 35px;
+  background-color: #eaeaea;
+  background-color: #eaeaea;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h1 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "shrikhand";
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: none;
   color: #101010;
 }
@@ -28,10 +40,12 @@ a {
 }
 
 .position {
+  height: 50px;
   display: flex;
   justify-content: center;
-  height: 50px;
-  background-color: #EAEAEA;
+  align-items: center;
+  font-size: 1rem;
+  background: #d3d3d3;
 }
 
 .description {
@@ -68,6 +82,8 @@ a {
   top: 50px;
   border-radius: 25px;
   background: linear-gradient(#FF79DA, #9356DC);
+  width: 220px;
+  margin: 30px auto;
   transition: opacity 1s,box-shadow 2s;
 }
 
@@ -150,13 +166,6 @@ h2 {
 
 .grey-background {
   background: #ececec;
-}
-
-.restaurant_title {
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding: 40px 0 10px 20px;
-  margin: 0;
 }
 
 .restaurant_cont {
@@ -278,4 +287,8 @@ footer {
   list-style: none;
   padding: 0px;
   line-height: 2;
+}
+
+.footer__icon {
+  width: 25px;
 }
