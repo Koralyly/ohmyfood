@@ -40,8 +40,8 @@ body {
 
   .loader__item__container {
 	display: flex;
-	width: 15px;
-;
+	width: 5rem;
+	justify-content: space-between;
   }
 .loader__item{
   height: 1rem;
