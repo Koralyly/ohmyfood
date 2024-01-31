@@ -74,13 +74,14 @@ body {
 @media screen and (min-width: 1024px) {
   .fonctionnement_btns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .restaurant_cont {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    padding-bottom: 60px;
   }
   h2 {
     max-width: 1024px;
