@@ -179,6 +179,33 @@ footer {
   width: 25px;
 }
 
+.omf-btn__title {
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.omf-::after {
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#9356DC, #ae80e5);
+  box-shadow: 0 2px 4px #636363;
+  opacity: 0;
+  z-index: -1;
+}
+
+.restaurant_image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
 h1 {
   display: flex;
   align-items: center;
@@ -457,6 +484,33 @@ footer {
 
 .footer__icon {
   width: 25px;
+}
+
+.omf-btn__title {
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.omf-::after {
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#9356DC, #ae80e5);
+  box-shadow: 0 2px 4px #636363;
+  opacity: 0;
+  z-index: -1;
+}
+
+.restaurant_image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center bottom;
 }
 
 @media screen and (min-width: 1024px) {

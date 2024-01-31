@@ -84,6 +84,13 @@ body {
   padding: 27px 0;
 }
 
+.restaurant_image {
+ height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
 h2 {
   font-family: "Shrikhand", cursive;
   font-size: 1.75rem;
@@ -276,6 +283,17 @@ footer {
   padding: 0px;
   line-height: 2;
 }
+
+  
+
+  
+
+
+  
+
+
+ 
+
 
   
 
