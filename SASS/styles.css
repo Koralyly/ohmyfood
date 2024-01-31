@@ -71,6 +71,27 @@ body {
   animation-delay: .5s;
 }
 
+@media screen and (min-width: 1024px) {
+  .fonctionnement_btns {
+    display: flex;
+    justify-content: space-between;
+  }
+  .restaurant_cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  h2 {
+    max-width: 1024px;
+    margin: auto;
+  }
+  .restaurant_card {
+    width: 470px;
+    margin: 10px 20px;
+  }
+}
+
 .fa-location-dot::before {
   line-height: 3;
   margin-left: 26px;
@@ -326,13 +347,6 @@ h2 {
 
 .grey-background {
   background: #ececec;
-}
-
-.restaurant_cont {
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 .restaurant_card {
