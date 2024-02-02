@@ -71,6 +71,80 @@ body {
   animation-delay: .5s;
 }
 
+.header-omf {
+  position: sticky;
+  top: 0;
+  background: white;
+  height: 65px;
+  box-shadow: 0px 2px 4px #636363;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.header_arrow {
+  color: #636363;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer {
+  background-color: #353535;
+  padding: 30px 20px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: right;
+    align-items: center;
+    gap: 50px;
+    padding-right: 50px;
+  }
+}
+
+.footer__list {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__logo {
+  font-family: shrikhand, cursive;
+  font-size: 20px;
+}
+
+.footer__list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  line-height: 2;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.footer__icon {
+  width: 25px;
+}
+
 @media screen and (min-width: 1024px) {
   .fonctionnement_btns {
     display: flex;
@@ -107,7 +181,7 @@ body {
   border: none;
   margin-left: 14px;
   height: 32px;
-  background: #d3d3d3;
+  background: #EAEAEA;
   color: #333;
   font-size: 1rem;
   font-weight: 500;
@@ -133,6 +207,19 @@ body {
 .omf-btn:hover {
   box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.35);
   opacity: 0.6;
+}
+
+.btn {
+  width: 200px;
+  align-self: center;
+  margin: 2rem;
+}
+
+.omf-btn__title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 4px;
 }
 
 .hoverheart__content-solid {
@@ -170,40 +257,8 @@ body {
   opacity: 0;
 }
 
-footer {
-  background-color: #353535;
-  padding: 30px 20px;
-  align-items: flex-start;
-}
-
-.container--footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer__logo {
-  font-family: shrikhand, cursive;
-  font-size: 20px;
-}
-
-.footer__list {
-  list-style: none;
-  padding: 0px;
-  line-height: 2;
-}
-
-.footer__icon {
-  width: 25px;
-}
-
 .omf-btn__title {
   text-align: center;
-  padding-top: 15px;
   color: white;
   font-weight: bold;
 }
@@ -221,11 +276,15 @@ footer {
   z-index: -1;
 }
 
+.h2 {
+  display: flex;
+  align-items: center;
+}
+
 .restaurant_image {
-  height: 100%;
+  height: 455px;
   width: 100%;
   object-fit: cover;
-  object-position: center bottom;
 }
 
 h1 {
@@ -249,14 +308,14 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  background: #d3d3d3;
+  background: #EAEAEA;
 }
 
 .description {
   text-align: center;
   padding: 40px 20px 70px;
   background-color: #f6f6f6;
-  padding: 0px;
+  padding: 10px;
 }
 
 .description_title {
@@ -284,6 +343,7 @@ h2 {
 
 .fonctionnement_btns {
   padding-bottom: 50px;
+  gap: 30px;
 }
 
 .functioning__title {
@@ -435,6 +495,19 @@ h2 {
   opacity: 0.6;
 }
 
+.btn {
+  width: 200px;
+  align-self: center;
+  margin: 2rem;
+}
+
+.omf-btn__title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
 .hoverheart__content-solid {
   cursor: pointer;
   font-size: 1.8rem;
@@ -470,40 +543,8 @@ h2 {
   opacity: 0;
 }
 
-footer {
-  background-color: #353535;
-  padding: 30px 20px;
-  align-items: flex-start;
-}
-
-.container--footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer__logo {
-  font-family: shrikhand, cursive;
-  font-size: 20px;
-}
-
-.footer__list {
-  list-style: none;
-  padding: 0px;
-  line-height: 2;
-}
-
-.footer__icon {
-  width: 25px;
-}
-
 .omf-btn__title {
   text-align: center;
-  padding-top: 15px;
   color: white;
   font-weight: bold;
 }
@@ -521,11 +562,15 @@ footer {
   z-index: -1;
 }
 
+.h2 {
+  display: flex;
+  align-items: center;
+}
+
 .restaurant_image {
-  height: 100%;
+  height: 455px;
   width: 100%;
   object-fit: cover;
-  object-position: center bottom;
 }
 
 @media screen and (min-width: 1024px) {

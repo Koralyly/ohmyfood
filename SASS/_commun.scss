@@ -1,4 +1,4 @@
-// Animation bouton 
+// Animation bouton et bouton 
 
 .omf-btn {
     display: flex;
@@ -20,6 +20,20 @@
       box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.35);
       opacity: 0.6;
     }
+}
+
+.btn {
+  width: 200px;
+  align-self: center;
+  margin: 2rem;
+}
+
+
+.omf-btn__title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 4px;
 }
 
 //Animation coeur 
@@ -60,43 +74,10 @@
 
   
 
-  //footer
-  footer {
-    background-color: #353535;
-    padding: 30px 20px;
-    align-items: flex-start;
-  }
-  
-  .container--footer {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .footer a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .footer__logo {
-    font-family: shrikhand, cursive;
-    font-size: 20px;
-  }
-  
-  .footer__list {
-    list-style: none;
-    padding: 0px;
-    line-height: 2;
-  }
-  
-  .footer__icon {
-    width: 25px;
-  }
-
 //Commander
 
   .omf-btn__title {
-    text-align: center;
-    padding-top: 15px;
+    text-align: center; 
     color: white;
     font-weight: bold;
   }
@@ -116,11 +97,16 @@
    
   }
 
+  .h2{
+
+    display: flex;
+    align-items: center;
+  }
+
   //image cover
   
 .restaurant_image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center bottom;
+  height: 455px;
+  width: 100%;
+  object-fit: cover;
   }
