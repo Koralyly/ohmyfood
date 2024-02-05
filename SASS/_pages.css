@@ -23,7 +23,7 @@
 
 .restaurant-page-menu_title {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   padding: 27px 0;
 }
@@ -145,7 +145,7 @@
   background-color: #99e2d0;
   margin: 0;
   padding: 0;
-  margin-left: 5vw;
+  margin-left: 2vw;
 }
 
 @media screen and (min-width: 1024px) {
@@ -167,5 +167,13 @@
   }
   .flex {
     display: flex;
+  }
+  .fa-heart {
+    font-size: 1.8rem;
+    position: absolute;
+    right: 30%;
+    bottom: 25px;
+    padding: 1px;
+    margin-right: 59px;
   }
 }

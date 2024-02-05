@@ -57,7 +57,7 @@
   position: absolute;
   right: 25px;
   bottom: 25px;
-  padding: 1px;
+  padding: 4px;
 }
 
 .hoverheart__content-light {
@@ -193,7 +193,7 @@ h2 {
 
 .menu h3 {
   padding-bottom: 0px;
-  margin: 0 5vw;
+  margin: 0 2vw;
 }
 
 .menu h4 {
@@ -236,7 +236,7 @@ h2 {
 
 .restaurant-page-menu_title {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   padding: 27px 0;
 }
@@ -358,7 +358,7 @@ h2 {
   background-color: #99e2d0;
   margin: 0;
   padding: 0;
-  margin-left: 5vw;
+  margin-left: 2vw;
 }
 
 @media screen and (min-width: 1024px) {
@@ -380,6 +380,14 @@ h2 {
   }
   .flex {
     display: flex;
+  }
+  .fa-heart {
+    font-size: 1.8rem;
+    position: absolute;
+    right: 30%;
+    bottom: 25px;
+    padding: 1px;
+    margin-right: 59px;
   }
 }
 
