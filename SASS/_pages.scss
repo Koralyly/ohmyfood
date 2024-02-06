@@ -1,18 +1,6 @@
 //Menus et cards 
 
-.restaurant-page-grey-background {
-    position: relative;
-    background-color: #ececec;
-    border-radius: 45px 45px 0px 0px;
-    margin-top: -50px;
-    padding-bottom: 10px;
-    @media screen and (min-width: 1024px){
 
-     
-        width: 50%;
-      
-  }
-}
 
   
 .restaurant-page-menu {
@@ -160,11 +148,23 @@
     padding: 0;
     margin-left: 2vw;
   }
- 
+  .restaurant-page-grey-background {
+    position: relative;
+    background-color: #ececec;
+    border-radius: 45px 45px 0px 0px;
+    margin-top: -50px;
+    padding-bottom: 10px;
+@media screen and (min-width: 1024px){
 
- 
+     
+        width: 50%;
+      
+  }
+}
 
-  @media screen and (min-width: 1024px){
+
+
+ @media screen and (min-width: 1024px){
 
     .restaurant-page-grey-background {
       width: 88%;
@@ -197,7 +197,10 @@
       
   }
 
-    
+}
    
-   }
-   
+    @media (min-width: 767px) and (max-width: 1025px){
+
+      
+
+    }

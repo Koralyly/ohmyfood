@@ -41,8 +41,10 @@ h2{
     margin: 10px 20px;
   }
 
- 
-  }
+  
+}
+
+
 
 .fa-location-dot::before {
   line-height: 3;
@@ -251,25 +253,7 @@ h2 {
   opacity: 0;
 }
 
-@media screen and (min-width: 1024px) {
-  .restaurant__title {
-    max-width: 1024px;
-    margin: auto;
-  }
 
-  .restaurant-inserts {
-    max-width: 1024px;
-    margin: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .restaurant-card {
-    width: 470px;
-    margin: 10px 20px;
-  }
-}
 
 .picture-restaurant {
   overflow: hidden;
@@ -488,3 +472,60 @@ h2 {
 }
 
 
+@media screen and (min-width: 1024px) {
+  .restaurant__title {
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .restaurant-inserts {
+    max-width: 1024px;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .restaurant-card {
+    width: 470px;
+    margin: 10px 20px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1025px){
+  .restaurant_card
+{
+ 
+    width: 320px;
+    margin: 10px 20px;
+  }
+
+.restaurant_cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.fonctionnement_btns{
+
+  
+    display: flex;
+    justify-content: center;
+
+}
+
+.fonctionnement_cercle{
+
+  width: 45px;
+}
+
+h2 {
+  padding: 40px 0px 10px 47px;
+}
+
+.fonctionnement_text {
+  padding: 16px;
+  margin: 0;
+}
+}
