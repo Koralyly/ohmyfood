@@ -1,8 +1,6 @@
 //Menus et cards 
 
 
-
-  
 .restaurant-page-menu {
     margin: 0px 20px;
 }
@@ -148,12 +146,24 @@
     padding: 0;
     margin-left: 2vw;
   }
+  
+  restaurant__image{
+
+    height: 360px;
+    width: 100%;
+    object-fit: cover;
+  }
+
   .restaurant-page-grey-background {
     position: relative;
     background-color: #ececec;
     border-radius: 45px 45px 0px 0px;
     margin-top: -50px;
     padding-bottom: 10px;
+
+
+
+    
 @media screen and (min-width: 1024px){
 
      

@@ -203,7 +203,7 @@ footer {
 .fa-heart {
   font-size: 1.8rem;
   position: absolute;
-  right: 25px;
+  right: auto;
   bottom: 25px;
   padding: 4px;
 }
@@ -241,7 +241,7 @@ footer {
 }
 
 .restaurant_image {
-  height: 455px;
+  height: 360px;
   width: 100%;
   object-fit: cover;
 }

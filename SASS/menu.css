@@ -93,7 +93,7 @@
 }
 
 .restaurant_image {
-  height: 455px;
+  height: 360px;
   width: 100%;
   object-fit: cover;
 }
@@ -345,6 +345,12 @@ h2 {
   margin: 0;
   padding: 0;
   margin-left: 2vw;
+}
+
+restaurant__image {
+  height: 360px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .restaurant-page-grey-background {
